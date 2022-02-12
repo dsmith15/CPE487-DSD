@@ -10,4 +10,4 @@
 ___
 
 ### Assignment 1:
-#### [Decoder](https://github.com/khaledhassan/vhdl-examples/tree/master/decoder)
+#### [Decoder](https://github.com/dsmith15/CPE487-DSD/tree/main/Homework/Assignment%201)
