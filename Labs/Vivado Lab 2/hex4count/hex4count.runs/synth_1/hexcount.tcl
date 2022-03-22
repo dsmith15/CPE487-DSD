@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.runs/synth_1/hexcount.tcl"
+  variable script "C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.runs/synth_1/hexcount.tcl"
   variable category "vivado_synth"
 }
 
@@ -76,19 +76,19 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.cache/wt [current_project]
-set_property parent.project_path C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.xpr [current_project]
+set_property webtalk.parent_dir {C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys-a7-100t:part0:1.0 [current_project]
-set_property ip_output_repo c:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.cache/ip [current_project]
+set_property ip_output_repo {c:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.srcs/sources_1/new/counter.vhd
-  C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.srcs/sources_1/new/leddec.vhd
-  C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.srcs/sources_1/new/hexcount.vhd
+  {C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.srcs/sources_1/new/counter.vhd}
+  {C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.srcs/sources_1/new/leddec.vhd}
+  {C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.srcs/sources_1/new/hexcount.vhd}
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -99,8 +99,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.srcs/constrs_1/new/hexcount.xdc
-set_property used_in_implementation false [get_files C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.srcs/constrs_1/new/hexcount.xdc]
+read_xdc {{C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.srcs/constrs_1/new/hexcount.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.srcs/constrs_1/new/hexcount.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

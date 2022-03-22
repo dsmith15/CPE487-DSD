@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/ece02/Documents/Jon_DSD/hex4count/hex4count.srcs/constrs_1/new/hexcount.xdc rfile:../../../hex4count.srcs/constrs_1/new/hexcount.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/CPE487-DSD/Labs/Vivado Lab 2/hex4count/hex4count.srcs/constrs_1/new/hexcount.xdc} rfile:../../../hex4count.srcs/constrs_1/new/hexcount.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33} [get_ports clk_100MHz]
 set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
