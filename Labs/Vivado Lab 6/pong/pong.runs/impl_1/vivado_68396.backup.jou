@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2.1 (64-bit)
+# SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
+# IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
+# Start of session at: Thu Mar 24 12:40:59 2022
+# Process ID: 68396
+# Current directory: C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/Vivado Lab 6/pong/pong.runs/impl_1
+# Command line: vivado.exe -log pong.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pong.tcl -notrace
+# Log file: C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/Vivado Lab 6/pong/pong.runs/impl_1/pong.vdi
+# Journal file: C:/Users/Dylan/Documents/Spring 2022/CPE 487 DSD/Vivado Lab 6/pong/pong.runs/impl_1\vivado.jou
+# Running On: DESKTOP-9FAJBKM, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 17053 MB
+#-----------------------------------------------------------
+source pong.tcl -notrace
