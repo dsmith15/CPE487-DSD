@@ -17,4 +17,6 @@ ___
 #### Lab 1: [hexcount](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%201)
 #### Lab 2: [hex4count](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%202/hex4count)
 #### Lab 3: [vgaball](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%203/vgaball)
+#### Lab 4: [hexcalc](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%204/hexCalc)
+#### Lab 5: [siren](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%205/siren)
 #### Lab 6: [pong](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%206/pong)
