@@ -20,3 +20,7 @@ ___
 #### Lab 4: [hexcalc](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%204/hexCalc)
 #### Lab 5: [siren](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%205/siren)
 #### Lab 6: [pong](https://github.com/dsmith15/CPE487-DSD/tree/main/Labs/Vivado%20Lab%206/pong)
+___
+
+### Final Project:
+#### [BrickBreaker](https://github.com/dsmith15/CPE487-DSD/tree/main/Final%20Project%20-%20Brick%20Breaker)
