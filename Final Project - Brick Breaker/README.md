@@ -49,4 +49,5 @@ Possible changes for the future
 - add a reset bricks button
 ___
 ### Results:
-
+![](https://github.com/dsmith15/CPE487-DSD/blob/main/Final%20Project%20-%20Brick%20Breaker/IMG-9649.jpg)
+![](https://github.com/dsmith15/CPE487-DSD/blob/main/Final%20Project%20-%20Brick%20Breaker/Brick%20breaker%20Gif.gif)
